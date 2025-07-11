@@ -94,19 +94,14 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="w-full max-w-5xl">
-                <div className="relative rounded-xl border bg-background p-2 shadow-2xl">
-                  <Image
-                    src="/placeholder.svg?height=600&width=1000"
-                    alt="ProductFlow Dashboard"
-                    width={1000}
-                    height={600}
-                    className="rounded-lg"
+                <div className="relative rounded-xl border bg-background shadow-2xl overflow-hidden">
+                  <iframe
+                    className="w-full h-[600px] md:h-[500px] rounded-lg"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="ProductFlow Demo"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
                   />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <Button size="lg" variant="secondary" className="h-16 w-16 rounded-full">
-                      <div className="h-0 w-0 border-l-[12px] border-l-primary border-y-[8px] border-y-transparent ml-1" />
-                    </Button>
-                  </div>
                 </div>
               </div>
             </div>
